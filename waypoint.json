@@ -1,0 +1,21 @@
+{
+  "extract_dir": "",
+  "url": "https://releases.hashicorp.com/waypoint/0.1.2/waypoint_0.1.2_windows_amd64.zip",
+  "version": "0.1.2",
+  "depends": "",
+  "homepage": "https://www.waypointproject.io/",
+  "bin": "waypoint.exe",
+  "license": "MPL-2.0",
+  "hash": "c3260116ad6145fd819d84545c4bb30b5d9eec090e6af50699d0724af3a253b6",
+  "checkver": {
+    "github": "https://github.com/hashicorp/waypoint"
+  },
+  "autoupdate": {
+    "url": "https://github.com/hashicorp/waypoint/releases/download/v$version/waypoint_$version_windows_amd64.zip",
+    "extract_dir": "",
+    "hash": {
+      "url": "https://github.com/hashicorp/waypoint/releases/download/v$version/waypoint_$version_checksums.txt",
+      "find": "([a-fA-F0-9]{64})\\s+waypoint_$version_windows_amd64.zip"
+    }
+  }
+}
