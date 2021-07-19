@@ -4,12 +4,12 @@
     "license": "MPL 2.0",
     "url": "https://github.com/hashicorp/terraform-ls/releases/download/v0.19.0/terraform-ls_0.19.0_windows_amd64.zip",
     "hash": "7b53c9063f03a12204b7d4811cc200965e9d792be78321c434d29eadc9d7e3fb",
-    "extract_dir": ".",
+    "extract_dir": "",
     "bin": ["terraform-ls.exe"],
     "checkver": {"github": "https://github.com/hashicorp/terraform-ls"},
     "autoupdate": {
         "url": "https://github.com/hashicorp/terraform-ls/releases/download/v$version/terraform-ls_$version_windows_amd64.zip",
-        "extract_dir": ".",
+        "extract_dir": "",
         "hash": {
             "url": "https://github.com/hashicorp/terraform-ls/releases/download/v$version/terraform-ls_$version_SHA256SUMS",
             "find": "([a-fA-F0-9]{64})\\s+terraform-ls_$version_windows_amd64.zip"
