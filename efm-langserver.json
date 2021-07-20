@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/mattn/efm-langserver",
+    "version": "0.0.35",
+    "license": "MIT",
+    "url": "https://github.com/mattn/efm-langserver/releases/download/v0.0.35/efm-langserver_v0.0.35_windows_amd64.zip",
+    "extract_dir": "efm-langserver_v0.0.35_windows_amd64",
+    "bin": ["efm-langserver.exe"],
+    "checkver": {"github": "https://github.com/mattn/efm-langserver"},
+    "autoupdate": {
+        "url": "https://github.com/mattn/efm-langserver/releases/download/v$version/efm-langserver_v$version_windows_amd64.zip",
+        "extract_dir": "efm-langserver_v$version_windows_amd64"
+    }
+}
