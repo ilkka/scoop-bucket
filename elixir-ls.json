@@ -1,8 +1,11 @@
 {
   "homepage": "https://github.com/elixir-lsp/elixir-ls",
-  "version": "0.13.0",
+  "version": "0.20.0",
   "license": "MIT",
-  "url": "https://github.com/elixir-lsp/elixir-ls/releases/download/v0.13.0/elixir-ls-1.13-25.1.zip",
+  "url": "https://github.com/elixir-lsp/elixir-ls/releases/download/v0.20.0/elixir-ls-v0.20.0.zip",
+  "hash": [
+    "sha256:6bb9a8e7f3bc8d742aa9d668535049cbe3d57f753c7b0292972510ee23205b43"
+  ],
   "bin": [
     [
       "language_server.bat",
@@ -13,7 +16,6 @@
     "github": "https://github.com/elixir-lsp/elixir-ls"
   },
   "autoupdate": {
-    "url": "https://github.com/elixir-lsp/elixir-ls/releases/download/v$version/elixir-ls-1.13-25.1.zip",
-    "extract_dir": "elixir-ls-1.13-25.1.zip"
+    "url": "https://github.com/elixir-lsp/elixir-ls/releases/download/v$version/elixir-ls-v$version.zip"
   }
 }
