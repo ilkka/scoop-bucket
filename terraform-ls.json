@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/hashicorp/terraform-ls",
-    "version": "0.30.2",
+    "version": "0.32.8",
     "license": "MPL 2.0",
-    "url": "https://releases.hashicorp.com/terraform-ls/0.30.2/terraform-ls_0.30.2_windows_amd64.zip",
-    "hash": "d277c85c4536dd2f5734efa7a9a7ece43d963ecb5a7cb7e86474867d369dfe95",
+    "url": "https://releases.hashicorp.com/terraform-ls/0.32.8/terraform-ls_0.32.8_windows_amd64.zip",
+    "hash": "3c5e2b8e7aa838d19ff62e27c2afa0d6605a27ee282ef24c6bbbc2006f170fb0",
     "extract_dir": "",
     "bin": "terraform-ls.exe",
     "checkver": {
